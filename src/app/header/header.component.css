@@ -1,0 +1,26 @@
+.navbar a,
+.navbar input,
+.navbar input::placeholder,
+.navbar button {
+    color: var(--primary-color);
+}
+
+form.d-flex.flex-fill {
+    border: 1px solid var(--primary-color);
+}
+
+.navbar input {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.navbar button.btn.btn-outline-light{
+    background-color: lightgray;
+    border-radius: 0;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bolder;
+}
