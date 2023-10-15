@@ -15,12 +15,17 @@ form.d-flex.flex-fill {
     padding-right: 0;
 }
 
-.navbar button.btn.btn-outline-light{
+.navbar button.btn.btn-outline-light {
     background-color: lightgray;
     border-radius: 0;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2rem;
     font-weight: bolder;
+}
+
+a.nav-link.active {
+    font-weight: bolder;
+    text-decoration: underline;
 }

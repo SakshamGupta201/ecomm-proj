@@ -12,15 +12,17 @@
             </form>
             <ul class="navbar-nav ml-auto"> <!-- Added ml-auto to push it to the right -->
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" routerLink="/" routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact:true}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Seller</a>
-                </li><li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" routerLink="/seller-auth" routerLinkActive="active">Seller</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cart (0)</a>
+                    <a class="nav-link" href="#" routerLinkActive="active">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" routerLinkActive="active">Cart (0)</a>
                 </li>
             </ul>
         </div>
