@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class SellerAuthComponent {
 
+  signUp(formData: FormData): void {
+    console.log(formData);
+    
+  }
 }
