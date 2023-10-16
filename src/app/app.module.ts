@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { NoPageComponent } from './no-page/no-page.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { SellerHomeComponent } from './seller-home/seller-home.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,15 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     HomeComponent,
     SellerAuthComponent,
-    NoPageComponent
+    NoPageComponent,
+    SellerHomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,34 @@
+{
+  "seller": [
+    {
+      "name": "Saksham Gupta",
+      "email": "saksham@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Sam Gupta",
+      "email": "Sam@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Saksham Mahajan",
+      "email": "saksham495gupta@gmail.com",
+      "password": "Password",
+      "id": 3
+    },
+    {
+      "name": "Kennedy Camacho",
+      "email": "liparin@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 4
+    },
+    {
+      "name": "Leroy Henry",
+      "email": "wowesyj@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 5
+    }
+  ]
+}

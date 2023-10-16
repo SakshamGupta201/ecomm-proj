@@ -49,8 +49,8 @@ button {
 }
 
 button:hover {
-    background-color: var(--primary-color-dark);
-    /* Define a darker shade of your primary color */
+    background-color: var(--primary-color);
+    opacity: 0.5;
 }
 
 .card-header {
